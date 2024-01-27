@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+<h1 id="h"><link rel="stylesheet" href="style1.css">This is a heading</h1>
+<p>This is a paragraph of text
+</p>
+Change webpage background to:
+<button onclick="changeback('yellow')">Yellow</button>
+<button onclick="changeback('blue')">Blue</button>
+<button onclick="changeback('red')">Red</button>
+ 
+<br>
+<br>
+Change heading background to:
+<button onclick="changehead('green')">Green</button>
+<button onclick="changehead('orange')">Orange</button>
+<button onclick="changehead('red')">Red</button>
+<script>
+function changeback(color){
+document.body.style.background=color
+}
+function changehead(color){
+var c=document.getElementById("h");
+c.style.background=color
+}
+</script>
+</body>
+</html>

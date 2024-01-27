@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body bgcolor="#B6B6B4">
+<center>
+<table WIDTH="100%">
+<th><form action="">
+    <hr><h2 >REGISTRATION FORM</h2><hr>
+        </th></table><br><br>
+ 
+
+<table bgcolor="#98AFC7" border="5" cellspacing="10">
+<TR><TH>
+    <label for="fname"><b>First Name:</b></label></TH>
+  <TH><input type="text" placeholder="Enter your first name" name="fname" id="fname" required></TH></TR>
+<TR><TH> <label for="lname"><b>Last Name</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your last name" name="lname" id="lname" required></TH></TR>
+   <TR><TH> <label for="email"><b>Email</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your email" name="email" id="email" required></TH></TR>
+     <TR><TH> <label for="mobno"><b>Mobile No:</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your Mobile No" name="mobno" id="mobno" required></TH></TR>
+   <TR><TH> <label for="SEX"><b>Gender:</b></label></TH>
+   <TH> <input type="radio" placeholder="Gender" value="female" name="sex" id="sex" required>Female
+<input type="radio" placeholder="Gender" value="male" name="sex" id="sex" required>Male</TH></TR>
+<TR><TH> <label for="date"><b>Date:</b></label></TH>
+   <TH> <input type="address" placeholder="date" value="Date" name="date" id="address" required></th></tr>
+<TR><TH> <label for="address"><b>Address:</b></label></TH>
+ 
+   <TH> <textarea rows="3" cols="20" placeholder="Enter your address"  name="address" id="date" required></textarea></th></tr>
+<TR><TH> <label for="city"><b>City:</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your city" name="city" id="city" required></TH></TR>
+<TR><TH> <label for="state"><b>State</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your state" name="state" id="state" required></TH></TR>
+<TR><TH> <label for="country"><b>Country</b></label></TH>
+   <TH> <input type="text" placeholder="Enter your Country" name="country" id="country" required></TH></TR>
+<TR><TH> <label for="quali"><b>Qualification:</b></label></TH>
+   <TH> <select  name="quali" id="quali" width="20" required>
+<option value="others">Choose
+<option value="sslc">SSLC
+<option value="plus two">PLUS TWO
+<option value="ug">UG
+<option value="pg">PG
+</th></tr>
+<TR><TH> <label for="cource"><b>Courses Applied:</b></label></TH>
+   <TH> <select  name="quali" id="quali" width="20" required>
+<option value="others">Choose
+ <option value="mba">MBA
+ 
+<option value="mca">MCA
+<option value="Mtech">mtech
+<option value="Btech">Btech
+</th></tr>
+<TR><TH> <label for="file"><b>Image Upload:</b></label></TH>
+  <TH COLSPAN="2"> <input type="file" placeholder="image" name="file" id="file" required></TH></TR>
+   <TR> <TH COLSPAN="2">  <button type="submit" class="registerbtn">Register</button></TH></TR>
+  </div>
+  </table>
+</form>
+</table>
+</body>
+</html>

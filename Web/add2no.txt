@@ -1,0 +1,25 @@
+<html>
+<head>
+<body bgcolor="#B6B6B4">
+<center><h1>ADDING 2 NUMBERS</h1>
+<b>Enter first number:<input type="text" id="a">
+<br>
+<br>
+<b>Enter second number:<input type="text" id="b">
+<br>
+<br>
+<button onclick="add()">SUM</button>
+<input type="text" id="sum">
+</center>
+<script>
+function add(){
+var a=parseInt(document.getElementById("a").value);
+var b=parseInt(document.getElementById("b").value);
+ 
+var sum=a+b;
+document.getElementById("sum").value = sum;
+}
+</script>
+</body>
+</head>
+</html>

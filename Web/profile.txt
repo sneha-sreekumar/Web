@@ -1,0 +1,121 @@
+Profile.html
+<html>
+<head>
+<title>Profile</title>
+<body>
+<div style="background-color:"blue">
+<font color="red"><h1 align="center">PROFILE</h1></font></div>
+<font color="brown"><h2>QUALIFICATIONS &nbsp &nbsp</h2> 
+<table border="1" cell padding="5" width="50%">
+<tr>
+<td><b>NAME:</b></td>
+<td><a href="QUALIFICATION">SNEHA SREEKUMAR</a></td>
+</tr>
+<tr>
+<td><b>EMAIL ID:</b></td>
+<td>snehasreekumar10@gmail.com</td>
+</tr>
+<tr>
+<td><b>MOBILE NO:</b></td>
+<td>984578906</td>
+</tr>
+<tr>
+<td><b>GENDER:</b></td>
+<td>FEMALE</td>
+</tr>
+<tr>
+<td><b>DOB:</b></td>
+<td>15/03/2002</td>
+</tr>
+<tr>
+<td><b>ADDRESS:</b></td>
+<td>INDEEVARAM,ALAPPUZHA</td>
+</tr>
+</table>
+</body>
+</head>
+</html>
+
+
+Image.html
+<html>
+<head>
+<body><center>
+<h2>IMAGES</h2>
+<table border="1" cellpadding="5" width="50%">
+<tr>
+<td><img src="C:\Users\sneha\Downloads\img7.jpg"></td>
+<td><img src="C:\Users\sneha\Downloads\img2.jpg"></td>
+<td><img src="C:\Users\sneha\Downloads\img3.jpg"></td>
+</tr>
+<tr>
+<td><img src="C:\Users\sneha\Downloads\img4.jpg"></td>
+<td><img src="C:\Users\sneha\Downloads\img5.jpg"></td>
+<td><img src="C:\Users\sneha\Downloads\img6.jpg"></td>
+</tr>
+</body>
+</head>
+</html>
+
+Timetable.html
+<html>
+<head>
+<title>img timetable</title>
+<body>
+<body align="center"><font size="50">
+<body bgcolor="#FFFFC2">TIMETABLE GALLERY SHOWS</font size>
+<h1><font size="2"><a href="profile.html">CLICK HERE:PROFILE</a></font size></h1>
+<h2><font size="2"><a href="image.html">CLICK HERE:IMAGE</a></font size></h2>
+<h3><font size="2"><a href="link.html">CLICK HERE:LINKS</a></font size></h3>
+<center>
+<table border="5" cellpadding="5" cellspacing="5" width="50%" align="center">
+</center>
+<tr>
+<td>Gallery Name</td>
+<td>Place</td>
+<td>Date</td>
+</tr>
+<tr>
+<td>AS GALLERY</td>
+<td>ALAPPUZHA</td>
+<td>13 June 2023</td>
+</tr>
+<tr>
+<td>BS GALLERY</td>
+<td>KOLLAM</td>
+<td>22 August 2023</td>
+</tr>
+</body>
+</head>
+</html>
+
+Link.html
+<html>
+<head>
+<title>links</title>
+<body bgcolor="yellow">
+<table border="5" cellpadding="5" cellspacing="5" width="50%" align="center">
+<h1 align="center"><u>LINKS</u></h1>
+<tr>
+<td>pages</td>
+<td>links</td>
+</tr>
+<td>Image Gallery</td>
+<td><font color="brown"><a href="image.html">
+</font color>CLICK HERE</a></td>
+</tr>
+<tr>
+<td>Timetable</td>
+<td><font color="brown"><a href="timetable.html">
+</font color>CLICK HERE</a></td>
+</tr>
+<tr>
+<td>Profile</td>
+<td><font color="brown"><a href="profile.html">
+</font color>CLICK HERE</a></td>
+</tr>
+</body>
+</head>
+</html>
+
+

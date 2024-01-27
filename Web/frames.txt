@@ -1,0 +1,157 @@
+btechh.html
+<html>
+<head>
+<title>B.TECH</title>
+<center>
+<body bgcolor="#FFCBA4">
+<h1>B.TECH</h1>
+<h3>Bachelor of Technology or B Tech is an undergraduate programme in engineering and one of the sought-after courses in India. A degree in Bachelor of Technology is often considered a gateway to the field of engineering. The BTech course duration is four years, depending on the country and the institution. The alternative course to a Bachelor of Technology is Bachelor of Engineering. BE or Bachelor of Engineering is more of a theoretical-based programme while a Bachelor of Technology is based on practical learning as well as theoretical learning.</h3>
+<img src="C:\Users\sneha\Downloads\bt.jpg">
+</center>
+</body>
+<iframe src="i.html" width="40%" height="50%"></iframe>
+</head>
+</html>
+ 
+
+mtechh.html
+<html>
+<head>
+<title>M.TECH</title>
+<center>
+<body bgcolor="#FFCBA4">
+<h1>M.TECH</h1>
+<h3>M.Tech is a postgraduate degree programme in the field of engineering and one of the most sought-after courses among students who have completed their B.tech and BE courses. Master of Technology or MTech courses focus on advanced studies in multiple fields of engineering, technology, and related disciplines. Master of Technology or MTech courses provide specialised knowledge, research skills, and expertise in the subjects of engineering and technology.</h3>
+</body>
+</center>
+</head>
+</html>
+
+mbaa.html
+<html>
+<head>
+<title>MBA</title>
+<center>
+<body bgcolor="#ADDFFF">
+<h1>MBA</h1>
+<h3>MBA full form is Master of Business Administration and is one of the most popular post-graduate courses in India and abroad. MBA is a two-year postgraduate Management course which is opted by candidates who wish to pursue their career in the Management field. MBA courses are designed to equip individuals with advanced skills and knowledge in various aspects of Business and Management. MBA provides an opportunity for individuals to enhance their leadership abilities, strategic thinking, and problem-solving skills.</h3>
+</body>
+</center>
+</head>
+</html>
+
+mcaa.html
+<html>
+<head>
+<title>MCA</title>
+<center>
+<body bgcolor="#98FF98">
+<h1>MCA</h1>
+<h3>MCA course or Master of Computer Application is a postgraduate degree programme of two years which provides comprehensive knowledge on the development of computer applications with the support of contemporary programming languages. The students pursuing the Computer Application course are given a chance to develop modern software through the help of sophisticated tools and techniques. MCA course is stretched in a time span of four semesters where the students learn skill development in computers, the conceptual study of the framework, and also work necessary project work.</h3>
+</body>
+</center>
+</head>
+</html>
+
+target.html
+<html>
+<head>
+<title></title>
+<body bgcolor="yellow">
+<h1>COURSES</h1>
+<a href="btechh.html" target="a">B.TECH</a><br>
+<a href="mtechh.html" target="a">M.TECH</a><br>
+<a href="mbaa.html" target="a">MBA</a><br>
+<a href="mcaa.html" target="a">MCA</a>
+</body>
+</head>
+</html>
+
+details.html
+<html>
+<head>
+<title></title>
+<h1>DETAILS</h1>
+<body bgcolor="orange">
+Course details will display here!
+</body>
+</head>
+</html>
+
+navigationframe.html
+<html>
+<head>
+<title>navigationframes</title>
+<frameset cols="30%,*">
+<frame src="target.html" name="COURSES">
+<frame src="details.html" name="a">
+<no frame>
+<body>frame not working</body>
+</no frame>
+</frameset>
+</head>
+</html>
+
+mixedframe.html
+<html>
+<head>
+<title>mixedframes</title>
+<frameset rows="30%,*">
+<frame src="intro.html">
+<frameset cols="30%,*">
+<frame src="list.html">
+<frameset rows="50%,*">
+<frame src="table.html">
+<frame src="framess.html">
+<no frame>
+
+ 
+<body>frame not working</body>
+</no frame>
+</frameset>
+</head>
+</html>
+
+intro.html
+<html>
+<head>
+<title>INTRO</title>
+<body bgcolor="#ADDFFF">
+<h1>HTML</h1>
+<h3>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</h3>
+</body>
+</head>
+</html>
+
+list.html
+<html>
+<head>
+<title>LIST</title>
+<body bgcolor="#ADDFFF">
+<h1>LISTS</h1>
+<h3>A list is a record of information that makes finding items easy using bullets. There are 3 types of lists supported by Bootstrap are: Unordered Lists: In Unordered lists, items are marked with bullets. Ordered Lists: In Ordered lists items are marked with numerical bullets such as 1,2, i, ii, etc.</h3>
+</body>
+</head>
+</html>
+
+table.html
+<html>
+<head>
+<title>html table</title>
+<body bgcolor="#ADDFFF">
+<h1>TABLE</h1>
+<h3>HTML Table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis. Tables are useful for various tasks such as presenting text information and numerical data.</h3>
+</body>
+</head>
+</html>
+
+framess.html
+<html>
+<head>
+<title>frame</title>
+<body bgcolor="#ADDFFF">
+<h1>FRAME</h1>
+<h3> HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.</h3>
+</body></head>
+</html>
+

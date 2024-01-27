@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="style.css">
+<div class="banner"><h1>TIME WORLD</h1>
+</div>
+<body>
+<footer class="row" style="background-color:#000000; padding:20px;">
+<div class="navbar-header">
+<table width="100%">
+<tr>
+<th><a class="navbar-brand" href="#"><font color="white">TIME WORLD</a></th>
+</div>
+ 
+<ul class="nav navbar-nav">
+<th><li><a href="brands.html"><font color="white">BRANDS</a></li></th>
+<th><li><a href="men.html"><font color="white">MEN</a></li></th>
+<th><li><a href="women.html"><font color="white">WOMEN</a></li></th>
+</ul>
+<style>
+a:link { text-decoration: none; }
+</style>
+</tr>
+</table>
+</footer>
+<br>
+<br>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-12 162930.png" width=1400, height=400>
+</div>
+<br>
+<br>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-12 170216.png" width=1400, height=400>
+</div>
+</body>
+</head>
+</html>
+
+style.css
+.banner h1{
+font-size:40px;
+text-align:center;
+}
+
+brands.html
+<html>
+<head>
+<body>
+<center>
+<h1>BRANDS</h1>
+</center>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 214840.png" width=1400 height=200>
+</div>
+<hr>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 215459.png" width=1400 height=400>
+
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 215807.png" width=1400 height=400>
+</div>
+</body>
+</head>
+</html>
+
+men.html
+<html>
+<head>
+<body>
+<center>
+<h1>MEN'S WATCHES</h1>
+</center>
+<hr>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 220409.png" width=1200 height=500>
+</div>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 220744.png" width=1200 height=500>
+</div>
+</body>
+</head>
+</html>
+
+women.html
+<html>
+<head>
+<body>
+<center>
+<h1>WOMEN'S WATCHES</h1>
+</center>
+<hr>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 221110.png" width=1200 height=500>
+</div>
+<div style="text-align:center;">
+<img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot 2023-11-13 221453.png" width=1200 height=500>
+</div>
+</body>
+</head>
+</html>

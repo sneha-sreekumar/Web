@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>simple html page</title>
+<center>
+<body bgcolor="#FFCBA4">
+<h1>ADI SHANKARA</h1>
+<h2>INSTITUTE OF ENGINEERING & TECHNOLOGY</h2>
+<h3>VIDYA BHARATI NAGAR, KALADY-683 574</h3>
+<h4>Website:www.adishankara.ac.in</h4>
+<h5>0484-2463825,2466066</h5>
+<img src="C:\Users\sneha\Downloads\college photo.jpg" width=1000 
+height=500></img>
+<marquee><font color="purple"><u>ADMISSION 
+OPEN!</u></font></marquee>
+<h3><font size="6" color="brown">ABOUT US</font></h3>
+<p><h4>Ideally located in an idyllic ambiance, Adi Shankara Institute of 
+Engineering & Technology (ASIET) kindles vibrant memories of the serene 
+presence of Jagadguru Adi Shankara. Affiliated to A P J Abdul Kalam 
+Technological University, accredited by NBA and approved by AICTE, ASIET 
+is the first self-financing technical education center to be awarded the ISO 9001: 2008 certification. Located just 5 km from Kochi international airport, ASIET has a dynamic academic atmosphere in an idyllic environment. Fifteen batches of B.Tech students have passed out from the college to date and they occupy 
+responsible positions in prestigious organizations in India and abroad. 
+Established in 2001 and adeptly run by the Sringeri Mutt with the benign 
+blessings of Sree Sree Bharathitheertha Mahaswamigal, the College believes in 
+keeping a proactive approach for the overall development of the students.Adi 
+Shankara Institute of Engineering & Technology was established at Kalady with 
+the aim of providing value-added technical education with a flair of professional 
+excellence and ethical values. The college is run by ADI SANKARA TRUST, a 
+registered trust which has carved a niche in the educational sector by running 
+Sree Sankara College, Sree Sarada School, Adi Sankara Training College, Sree 
+Sarada Special School, DDU Kaushal Kendra all at Kalady.</h4></p>
+</center><hr>
+<h1><font color="brown">Courses Offered</h1></font>
+<ol>
+<li>BTECH</li>
+<li>MTECH</li>
+<li>MBA</li>
+<li>MCA</li>
+</ol>
+</body>
+</head>
+</html>

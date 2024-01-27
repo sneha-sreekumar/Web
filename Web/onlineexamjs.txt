@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script>
+function quiz(){
+    var a=0
+    if(document.getElementById("num1").checked)
+     { 
+      a=a+1
+     }
+     if(document.getElementById("num2").checked)
+     {
+ 
+       a=a+1
+     }
+       if(document.getElementById("num3").checked)
+     {
+       a=a+1
+     }
+     if(document.getElementById("num4").checked)
+     {
+       a=a+1
+     } 
+     if(document.getElementById("num5").checked)
+     {
+       a=a+1
+     }
+alert("your score is :"+a)
+}
+</script>
+<body>
+<h1>ONLINE TEST</h1>
+   <p>1. Which is the longest river in the world?</p><br>
+   <input type="radio" name="1" value="Great Ganga"/>Great Ganga<br>
+   <input type="radio" name="1" value="Nile" id="num1"  />Nile<br>
+ 
+    <input type="radio" name="1" value="Amazon" />Amazon<br>
+   <input type="radio" name="1" value="Niger" />Niger<br><hr>
+    <p>2.Which is the largest animal in the world?</p><br>
+      <input type="radio" name="2" value="Shark" />Shark<br>
+   <input type="radio"  name="2" value="Blue Whale"  id="num2"/>Blue Whale<br>
+    <input type="radio" name="2" value="Elephant" />Elephant<br>
+   <input type="radio" name="2" value="Giraffe" />Giraffe<br><hr>
+   <p>3. Which is the largest flower in the world?</p><br>
+      <input type="radio" name="3"  value="89" />Jasmine<br>
+   <input type="radio" name="3"   value="78" />Balloon Flower<br>
+    <input type="radio" name="3"   value="60"  id="num3" />Rafflesia<br>
+   <input type="radio" name="3"   value="48" />Camellia<br><hr>
+<p>4. Which is largest island in the world?</p><br>
+      <input type="radio" name="4"   value="New Guinea" />New Guinea<br>
+   <input type="radio" name="4" value="Andman Nicobar" />Andman Nicobar<br>
+    <input type="radio" name="4" value="Greenland"  id="num4" />Greenland<br>
+   <input type="radio" name="4" value="Hawaii" />Hawaii<br><hr>
+<p>5.Which is the 29th state of India?</p><br>
+      <input type="radio" name="5"  value="Uttarakhand" />Uttarakhand<br>
+   <input type="radio" name="5" value="Telangana"  id="num5"/>Telangana<br>
+    <input type="radio" name="5"  value="Uttar Pradesh"/>Uttar Pradesh<br>
+   <input type="radio" name="5"  value="Madhya Pradesh" />Madhya Pradesh<br><hr>
+   <input type="button" id = "tutorial" value="Click" onclick = "quiz()" />
+   <hr />
+   <label id = "label"></label>
+   <script>
+   </script>
+</body>
+</html>
+</html>

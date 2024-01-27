@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="#CECECE">
+<center>
+<h2>Registration Form</h2>
+<table border="1" double>
+<form method="post" action="regii.php">
+<tr><td><label for="name">Name:</label></td>
+<td><input type="text" id="name" name="name" required></td></tr>
+<tr><td><label for="age">Age:</label></td>
+<td><input type="number" id="age" name="age" required></td></tr>
+<tr><td><label for="gender">Gender:</label></td>
+<td><input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label></td></tr>
+<tr><td><label for="address">Address:</label></td>
+<td><textarea id="address" name="address" required></textarea></td></tr>
+<tr><td><label for="email">Email:</label></td>
+<td><textarea id="email" name="email" required></textarea></td></tr> 
+<tr><td><label for="language">Language:</label></td>
+<td><select id="language" name="language" required>
+<option value="english">English</option>
+<option value="hindi">Hindi</option>
+<option value="malayalam">Malayalam</option>
+</select></td></tr>
+<tr><td><center><input type="submit" value="Submit"></center></td></tr>
+</form>
+</table>
+<?php
+if ($_SERVER["REQUEST_METHOD"]=="POST") {
+ $name = $_POST['name'];
+    $age = $_POST['age'];
+$gender = $_POST['gender'];
+    $address = $_POST['address'];
+    $email=$_POST['email'];
+    $language = $_POST['language'];
+    echo "Name: $name <br>";
+    echo "Age: $age <br>";
+    echo "Gender: $gender <br>";
+    echo "Address: $address <br>";
+    echo "Email: $email <br>";
+    echo "Language: $language <br>";
+}
+?>
+</center>
+</body>
+</html>

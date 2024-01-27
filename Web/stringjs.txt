@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String and Math Functions Example</title>
+</head>
+<body>
+    <h1>String and Math Functions Example</h1>
+    <h2>Working with Strings</h2>
+    <p>Let's start by working with a name:</p>
+    <script>
+        var name = "Sneha";
+        document.write("Name: " + name + "<br>");
+        var nameLength = name.length;
+        document.write("Length of the name: " + nameLength + "<br>");
+    </script>
+    <h2>Working with Math Object</h2>
+    <p>Now, let's use the Math object to perform some mathematical operations:</p>
+    <script>
+        var pi = Math.PI;
+        document.write("Value of π (pi): " + pi + "<br>");
+        var numberToRound = 3.14159;
+        var roundedNumber = Math.round(numberToRound * 100) / 100;
+        document.write("Rounded number: " + roundedNumber + "<br>");
+        var base = 2;
+        var exponent = 3;
+        var powerValue = Math.pow(base, exponent);
+        document.write(base + " raised to the power of " + exponent + ": " + powerValue + "<br>");
+    </script>
+</body>
+</html>
